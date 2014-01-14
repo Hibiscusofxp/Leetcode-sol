@@ -1,4 +1,4 @@
-Leetcode-sol
+Leetcode Solutions
 ============
 
 Solution codes for Leetcode

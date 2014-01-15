@@ -13,6 +13,13 @@
 */
 class Solution {
 public:
+    // level: how many elements that have been added. 0 .. m
+    // idx: current idx in the original arr 0..arr.size()
+    // sumLeft: how close the current sum and target is. start from target
+    // len: m  in "m Sum"
+    // arr: input numbers
+    // curArr: numbers that have been added currently
+    // ans : answer
     void DFSTillTwoLeft(int level, int idx, int sumLeft, const int len, const vector<int> &arr, vector<int> &curArr, vector< vector <int> > &ans)
     {
         if (idx > arr.size() - 2)

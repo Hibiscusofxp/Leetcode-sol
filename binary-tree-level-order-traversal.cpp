@@ -3,9 +3,9 @@
  * binary-tree-level-order-traversal
  * http://oj.leetcode.com/problems/binary-tree-level-order-traversal/
  * Prob:
- *  
+ *      Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
  * Solution:
- *  
+ *      iterative. traversal the tree and at the same time keep track of the depth of that node. putting the node to corresponding vector is a piece of cake
  * CAUTION:
  *
  */

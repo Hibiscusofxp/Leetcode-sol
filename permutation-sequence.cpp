@@ -5,7 +5,7 @@
  * Prob:
  *      Given n and k, return the kth permutation sequence.
  * Solution:
- *      Think as mathmatician. We set the most significiant digit by observing that the rest n-1 digits could make (n-1)! different pairs at once,
+ *      Think as mathematician. We set the most significant digit by observing that the rest n-1 digits could make (n-1)! different pairs at once,
  *          so the first digit could be calculated by d0 = k / (n-1)!, also k2 = k % (n-1)!, d1 = k2 % (n-2)!...
  *      Also, be careful that numbers could only be used once so you should keep track of its usage as well (here by setting a ref string)
  * CAUTION:

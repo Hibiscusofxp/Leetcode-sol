@@ -9,35 +9,25 @@
  */
 class Solution {
 public:
-    void DFS(const vector<int> &S, int idx, 
-        vector<int> &tmp, vector<vector<int> > &res)
-    {
-        if (idx == S.size())
-        {
+    void DFS(int level, const vector<int> &S, vector<int> &tmp, vector< vector<int> > &res) {
+        if (level == S.size()) {
             res.push_back(tmp);
             return;
         }
-        tmp.push_back(S[idx]);
-        DFS(S, idx + 1, tmp, res);
+        tmp.push_back(S[level]);
+        DFS(level + 1, S, tmp, res);
         tmp.pop_back();
-        idx ++;
-        while (idx < S.size() && S[idx-1] == S[idx])
-            idx ++;
-        DFS(S, idx, tmp, res);
+        level ++;
+        while (level < S.size() && S[level] == S[level - 1])
+            level ++;
+        DFS(level, S, tmp, res);
     }
-
+    
     vector<vector<int> > subsetsWithDup(vector<int> &S) {
-        for (int i = 0; i < S.size()-1; i++)
-            for (int j = i + 1; j < S.size(); j++)
-                if (S[i] > S[j])
-                {
-                    int tm = S[i];
-                    S[i] = S[j];
-                    S[j] = tm;
-                }
-        vector<vector<int> > res;
-        vector<int> tmp;
-        DFS(S, 0, tmp, res);
+        std::vector< vector <int> > res;
+        std::vector<int> tmp;
+        sort(S.begin(), S.end());
+        DFS(0, S, tmp, res);
         return res;
     }
 };

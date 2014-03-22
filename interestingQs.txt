@@ -4,3 +4,15 @@ http://yucoding.blogspot.com/2013/04/leetcode-question-73-populating-next.html
 http://fisherlei.blogspot.com/2012/12/leetcode-distinct-subsequences_19.html
 http://yucoding.blogspot.com/2013/01/leetcode-question-30-flatten-binary.html
     // to keep pre-order unchanged, put right subtree as the right child of "rightmost leaf" of left subtree
+file:///Users/Ben/Downloads/yucoding.blogspot.com/2013/05/leetcode-question-111-trapping-rain.html
+file:///Users/Ben/Downloads/yucoding.blogspot.com/2013/01/leetcode-question-28-first-missing.html
+file:///Users/Ben/Downloads/yucoding.blogspot.com/2013/01/leetcode-question-58-multiply-strings.html
+http://yucoding.blogspot.com/2012/12/leetcode-question-16-combination-sum.html
+http://yucoding.blogspot.com/2013/04/leetcode-question-61-next-permutation.html
+http://fisherlei.blogspot.com/2012/12/leetcode-divide-two-integers.html
+http://yucoding.blogspot.com/2013/01/leetcode-question-34-implement-strstr.html
+    // Trie
+http://yucoding.blogspot.com/2012/12/leetcode-question-22-container-with.html
+http://yucoding.blogspot.com/2013/12/leetcode-question-regular-expression.html
+    // regular expression
+http://www.cnblogs.com/lichen782/p/leetcode_Reverse_Nodes_in_kGroup.html

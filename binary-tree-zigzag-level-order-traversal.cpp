@@ -28,8 +28,7 @@ public:
             return result;
         int curLevel = 1;
         int nextLevel = 0;
-        q.push(root);
-        bool leftToRight = true;
+        q.push(root);xz
         while (! q.empty())
         {
             TreeNode *cur = q.front();
